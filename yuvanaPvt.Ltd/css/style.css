@@ -1,0 +1,258 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+.navigation-panel, .nav-light{
+  background-color: #fff;
+}
+.navigation-panel, .navbar-nav{
+  padding-left: 30px !important;
+}
+.navbar-nav .nav-link {
+  font-size: 22px;
+  font-weight: 500 !important;
+  color: #000 !important;
+  font-family: 'Padauk', sans-serif;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+
+.hero-section .col-md-8{
+  margin-left: 17px !important;
+}
+.hero-section .row{
+  padding-top: 70px !important;
+}
+
+.about_hero{
+  /* margin-left: 120px; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 80px; */
+  align-items: center;
+
+}
+.about_hero .about_section_description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_hero .hero_title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px !important;
+  font-weight: 400;
+  color: #000 !important;
+  opacity: 1 !important;
+}
+.hero-section .hero_image{
+  display: flex;
+  justify-content: center;
+}
+.hero-section .hero_image img{
+  height: 470px;
+  width: 350px;
+}
+#hero-image{
+  margin-top: -110px;
+  padding-left: 12px !important;
+}
+.product_section{
+  margin-top: 150px;
+  height: 150vh;
+  background-color: #000;
+  clip-path: polygon(100% 0, 100% 59%, 80% 75%, 0 61%, 0 0);
+}
+.product_section .col-md-4{
+  display: flex;
+  justify-content: center;
+}
+.product_section .proudct_heading{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.product_section .proudct_heading h2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px !important;
+  font-weight: 400;
+  color: #fff;
+  /* padding-top: 5vh; */
+}
+.product_section .col-md-4 img{
+  height: 450px;
+  width: 350px;
+}
+.about_us_section{
+  margin-top: 150px;
+}
+
+.about_us_section .col-md-5{
+  display: flex;
+  justify-content: center;
+}
+/* .about_us_section .col-md-7{
+  background-color: #CAD5E2;
+  clip-path: polygon(37% 19%, 100% 14%, 100% 100%, 0 100%, 0 5%);
+  background-size: cover;
+} */
+.about_us_section .col-md- .about_section_description{
+  padding: 70px;
+}
+.about_us_section .col-md-7 .about_section_description h2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px !important;
+  font-weight: 400;
+}
+.about_us_section .col-md-7 .about_section_description p{
+  font-family: 'Padauk', sans-serif;
+  font-size: 25px !important;
+  font-weight: 500;
+  color: #10161e;
+}
+
+.about_us_section button{
+  padding: 10px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 5rem;
+  background: #000;
+  border: #000 1px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  font-family: 'Padauk', sans-serif;
+  color: #fff;
+}
+
+.contact_section{
+  margin-top: 150px;
+  background-color: #10161e;
+}
+.contact_section .col-md-6 .contact_description{
+  padding: 70px;
+}
+.contact_section .col-md-6 .contact_description h2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px !important;
+  font-weight: 400;
+  color: #fff;
+}
+.contact_section .col-md-6 .contact_description p{
+  font-family: 'Padauk', sans-serif;
+  font-size: 25px !important;
+  font-weight: 500;
+  color: #fff;
+}
+.contact_section button{
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 5rem;
+  background: #fff;
+  border: #fff 1px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  font-family: 'Padauk', sans-serif;
+  color: #000;
+}
+.contact_section button:hover{
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 5rem;
+  background: #dadddd;
+  border: #dadddd 1px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  font-family: 'Padauk', sans-serif;
+  color: #000;
+}
+.contact_section .col-md-6 .form_area{
+  padding: 70px;
+}
+.contact_section .footer .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact_section .footer .overline{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.contact_section .footer .overline .col-md-12{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.contact_section .footer .overline .col-md-12{
+  padding: 70px !important;
+}
+hr:not([size]) {
+  height: 1px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  opacity: 1 !important;
+}
+.contact_section .footer .row .col-md-4 h3{
+  font-family: 'Padauk', sans-serif;
+  font-size: 25px !important;
+  font-weight: 500;
+  color: #fff;
+}
+.contact_section .footer {
+  padding-bottom: 60px;
+}
+.contact_section .footer .image_column{
+  display: flex;
+  justify-content: center;
+}
+.contact_section .footer .image_column img{
+  height: 30px;
+  width: 110px;
+}
+@media screen and (max-width: 800px) {
+  .product_section{
+    margin-top: 150px;
+    height: 200vh;
+    background-color: #000;
+    clip-path: polygon(100% 0, 100% 59%, 80% 75%, 0 61%, 0 0);
+  }
+  .product_section .col-md-4{
+    display: flex;
+    justify-content: center;
+  }
+  .product_section .proudct_heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .product_section .proudct_heading h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px !important;
+    font-weight: 400;
+    color: #fff;
+    /* padding-top: 5vh; */
+  }
+  .product_section .col-md-4 img{
+    height: 250px;
+    width: 200px;
+  }
+  .about_us_section{
+    margin-top: 150px;
+  }
+}
